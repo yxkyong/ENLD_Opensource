@@ -1,5 +1,5 @@
 import sys
-sys.path.append("/home/3005yxk/ENLD_project_8_31/ENLD_code/")
+sys.path.append("your path")
 ########################### enld base.py
 ######################################base
 import numpy as np
@@ -674,19 +674,6 @@ def eval_enld_main_cifar100(noise_rate, args): # step =5
         # np.save('./selected_clean_816/'+des+'/'+str(k)+'.npy', selected_index)
     return pre_list, recall_list, time_list, his_all, validate_list
 
-import argparse
-parser = argparse.ArgumentParser()
-parser.add_argument('--dataset', type=str, default="cifar100")
-parser.add_argument('--data_path', type=str)
-parser.add_argument('--model_path', type=str)
-parser.add_argument('--vote', type=int, default=3)
-parser.add_argument('--size', type=int, default=3)
-parser.add_argument('--batch_size_set', type=int, default=64)
-parser.add_argument('--iteration', type=int, default=17)
-parser.add_argument('--noise_rate', type=str,default="0.1")
-args = parser.parse_args()
-print("parameters: vote, size, batch_size_set,iteration")
-print(args.vote, args.size, args.batch_size_set,args.iteration)
 
 
 def eval_enld_main_tiny_imagenet(noise_rate, args): # step =5
@@ -984,6 +971,20 @@ def eval_enld_main_tiny_imagenet(noise_rate, args): # step =5
         # np.save('./selected_clean_816/'+des+'/'+str(k)+'.npy', selected_index)
     return pre_list, recall_list, time_list, his_all, validate_list
 
+
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument('--dataset', type=str, default="cifar100")
+parser.add_argument('--data_path', type=str)
+parser.add_argument('--model_path', type=str)
+parser.add_argument('--vote', type=int, default=3)
+parser.add_argument('--size', type=int, default=3)
+parser.add_argument('--batch_size_set', type=int, default=64)
+parser.add_argument('--iteration', type=int, default=17)
+parser.add_argument('--noise_rate', type=str,default="0.1")
+args = parser.parse_args()
+print("parameters: vote, size, batch_size_set,iteration")
+print(args.vote, args.size, args.batch_size_set,args.iteration)
 
 
 if args.dataset=='emnist':
