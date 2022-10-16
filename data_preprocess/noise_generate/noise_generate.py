@@ -7,7 +7,6 @@ from base_class import dataset
 from sklearn.model_selection import train_test_split
 from enld_class import *
 import os
-sys.path.append("/home/3005yxk/ENLD_project_8_31/ENLD_code/")
 def emnist(data_path, save_path):
 
 
