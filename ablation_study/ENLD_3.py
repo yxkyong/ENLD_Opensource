@@ -1,5 +1,5 @@
 import sys
-sys.path.append("/home/3005yxk/ENLD_project_8_31/ENLD_code/")
+sys.path.append("your path")
 ########################### enld base.py
 ######################################base
 import numpy as np
