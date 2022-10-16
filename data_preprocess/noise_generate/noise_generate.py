@@ -1,7 +1,5 @@
 import sys
-sys.path.append("ur path")
-
-
+sys.path.append("your path")
 #### Cifar100 Preprocess
 import numpy as np
 from base_class import base_function, metric_function
@@ -9,16 +7,9 @@ from base_class import dataset
 from sklearn.model_selection import train_test_split
 from enld_class import *
 import os
-
-
+sys.path.append("/home/3005yxk/ENLD_project_8_31/ENLD_code/")
 def emnist(data_path, save_path):
-    #### Cifar100 Preprocess
-    import numpy as np
-    from base_class import base_function, metric_function
-    from base_class import dataset
-    from sklearn.model_selection import train_test_split
-    from enld_class import *
-    import os
+
 
     # Get Data
     dataset_path = data_path
@@ -113,12 +104,6 @@ def cifar100(data_path, save_path):
         
         
 def tiny_imagenet(data_path, save_path):
-    import numpy as np
-    from base_class import base_function, metric_function
-    from base_class import dataset
-    from sklearn.model_selection import train_test_split
-    from enld_class import *
-    import os
 
     # Get Data
     dataset_path = data_path
