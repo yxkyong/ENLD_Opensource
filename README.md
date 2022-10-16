@@ -1,6 +1,7 @@
 # ENLD_Opensource
 Code of "ENLD:Efficient Noisy Label Detection in Data Lake".
 
+![logo](https://github.com/yxkyong/ENLD_Opensource/blob/main/base_class/logo.png)
 ## Data Preprocess
 Dataset download url: [EMNIST](https://www.nist.gov/itl/products-and-services/emnist-dataset) [CIFAR100](https://www.cs.toronto.edu/~kriz/cifar.html) [Tiny-Imagenet](https://www.kaggle.com/c/tiny-imagenet)
 
