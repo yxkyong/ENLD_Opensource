@@ -1,5 +1,5 @@
 import sys
-sys.path.append("/home/3005yxk/ENLD_project_8_31/ENLD_code/")
+sys.path.append("your path")
 ########################### enld base.py
 ######################################base
 import numpy as np
@@ -115,7 +115,7 @@ def print_noisy(observed_label, true_label):
     print(len(groud_truth_index)/len(observed_label))
     
 
-def eval_enld_main(noise_rate, args): # step =5
+def eval_enld_main_cifar100(noise_rate, args): # step =5
 ################################################ load data
     noisy_rate = noise_rate
     des = 'cifar_100_noisy{}_ratio2_1'.format(noisy_rate)
