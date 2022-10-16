@@ -9,6 +9,7 @@ Divide inventory data and incremental data of each dataset and add label noise:
 path:/data_preprocess/noise_generate/
 
 `python noise_generate.py --dataset --data_path --save_path` 
+
 *usage: noise_generate.py [-h] [--dataset DATASET] [--data_path DATA_PATH] [--save_path SAVE_PATH]*
 
 Generate unbalanced incremental datasetes from incremental data:
