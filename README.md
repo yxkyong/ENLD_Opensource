@@ -31,3 +31,5 @@ Evaluate and process fine-grained noisy label detection method:
 `python fine_grained_noisy_label_detection.py --dataset --model_path --vote --size --iteration --noise_rate`
 
 *usage: fine_grained_noisy_label_detection.py [-h] [--dataset DATASET] [--data_path DATA_PATH] [--model_path MODEL_PATH] [--vote VOTE] [--size SIZE] [--batch_size_set BATCH_SIZE_SET] [--iteration ITERATION] [--noise_rate NOISE_RATE]*
+
+## Selection Policy & Ablation Study
