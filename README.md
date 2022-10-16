@@ -3,7 +3,7 @@ Code of "ENLD:Efficient Noisy Label Detection in Data Lake".
 
 <img src="https://github.com/yxkyong/ENLD_Opensource/blob/main/base_class/logo.png" width="30%" height="30%" />
 
-**Steps:** Data Preprocess-> Model Generate -> Fine-grained Noisy Label Detection
+**Module Steps:** Data Preprocess-> Model Generate -> Fine-grained Noisy Label Detection
 
 ## Data Preprocess
 Dataset download url: [EMNIST](https://www.nist.gov/itl/products-and-services/emnist-dataset) [CIFAR100](https://www.cs.toronto.edu/~kriz/cifar.html) [Tiny-Imagenet](https://www.kaggle.com/c/tiny-imagenet)
