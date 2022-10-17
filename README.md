@@ -36,7 +36,7 @@ Evaluate and process fine-grained noisy label detection method:
 
 *usage: fine_grained_noisy_label_detection.py [-h] [--dataset DATASET] [--data_path DATA_PATH] [--model_path MODEL_PATH] [--vote VOTE] [--size SIZE] [--batch_size_set BATCH_SIZE_SET] [--iteration ITERATION] [--noise_rate NOISE_RATE]*
 
-## Selection Policy 
+## Selection Strategy 
 
 Replace the sample selection strategy in fine-grained noisy label detection, path:/enld_policy/:
 
