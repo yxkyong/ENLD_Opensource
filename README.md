@@ -46,5 +46,5 @@ Replace the sample selection strategy in fine-grained noisy label detection, pat
 
 ## Ablation Study
 
-Conduct ablation study: ENLD-1~5
+Conduct ablation study, path:/ablation_study/: ENLD-1~5
 
