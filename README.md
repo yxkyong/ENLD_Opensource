@@ -48,3 +48,10 @@ Replace the sample selection strategy in fine-grained noisy label detection, pat
 
 Conduct ablation study, path:/ablation_study/: ENLD-1~5
 
+## Missing Label Cases
+
+path: /missing_label/
+
+`python --ratio 0.75 ENLD_missing_label.py`
+
+*usage: [--ratio MISSING RATE]
